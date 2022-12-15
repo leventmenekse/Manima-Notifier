@@ -120,9 +120,11 @@ Levent Menekse - menekselevent@gmail.com
 
 Project Link: [https://github.com/leventmenekse/Manima-Notifier](https://github.com/leventmenekse/Manima-Notifier)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/leventmenekse)
+
+<br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
