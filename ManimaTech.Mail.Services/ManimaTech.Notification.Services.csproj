@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ManimaTech.Mail.Domain\ManimaTech.Notification.Domain.csproj" />
+    <ProjectReference Include="..\ManimaTech.Mail.Dtos\ManimaTech.Notification.Dtos.csproj" />
+    <ProjectReference Include="..\ManimaTech.Mail.Enum\ManimaTech.Notification.Enum.csproj" />
+    <ProjectReference Include="..\ManimaTech.Mail.Models\ManimaTech.Notification.Models.csproj" />
+  </ItemGroup>
+
+</Project>
