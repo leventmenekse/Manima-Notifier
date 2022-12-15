@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Sender", "ManimaTech.Notification.Sender.csproj", "{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Domain", "..\ManimaTech.Notification.Domain\ManimaTech.Notification.Domain.csproj", "{CDB0A47D-1767-43A8-93A4-89A2F1123374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Enum", "..\ManimaTech.Notification.Enum\ManimaTech.Notification.Enum.csproj", "{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Services", "..\ManimaTech.Notification.Services\ManimaTech.Notification.Services.csproj", "{EFB0D292-41F4-481A-8FFD-22FDC874D20E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Models", "..\ManimaTech.Notification.Models\ManimaTech.Notification.Models.csproj", "{A0F24526-7625-4B27-B024-2CA48D3D71AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Dtos", "..\ManimaTech.Notification.Dtos\ManimaTech.Notification.Dtos.csproj", "{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB0A47D-1767-43A8-93A4-89A2F1123374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB0A47D-1767-43A8-93A4-89A2F1123374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB0A47D-1767-43A8-93A4-89A2F1123374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB0A47D-1767-43A8-93A4-89A2F1123374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB0D292-41F4-481A-8FFD-22FDC874D20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB0D292-41F4-481A-8FFD-22FDC874D20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB0D292-41F4-481A-8FFD-22FDC874D20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB0D292-41F4-481A-8FFD-22FDC874D20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F24526-7625-4B27-B024-2CA48D3D71AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F24526-7625-4B27-B024-2CA48D3D71AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F24526-7625-4B27-B024-2CA48D3D71AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F24526-7625-4B27-B024-2CA48D3D71AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5054BF65-52A3-41A4-9C03-BEB13F17EE95}
+	EndGlobalSection
+EndGlobal
