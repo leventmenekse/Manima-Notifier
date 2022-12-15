@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ManimaTech.Mail.Models\ManimaTech.Notification.Models.csproj" />
-    <ProjectReference Include="..\ManimaTech.Mail.Services\ManimaTech.Notification.Services.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Models\ManimaTech.Notification.Models.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Services\ManimaTech.Notification.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -13,10 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ManimaTech.Mail.Domain\ManimaTech.Notification.Domain.csproj" />
-    <ProjectReference Include="..\ManimaTech.Mail.Dtos\ManimaTech.Notification.Dtos.csproj" />
-    <ProjectReference Include="..\ManimaTech.Mail.Enum\ManimaTech.Notification.Enum.csproj" />
-    <ProjectReference Include="..\ManimaTech.Mail.Models\ManimaTech.Notification.Models.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Domain\ManimaTech.Notification.Domain.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Dtos\ManimaTech.Notification.Dtos.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Enum\ManimaTech.Notification.Enum.csproj" />
+    <ProjectReference Include="..\ManimaTech.Notification.Models\ManimaTech.Notification.Models.csproj" />
   </ItemGroup>
 
 </Project>

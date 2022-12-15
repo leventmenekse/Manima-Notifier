@@ -5,15 +5,15 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Sender", "ManimaTech.Notification.Sender.csproj", "{5C141A89-9F7F-4FD7-87AC-97C5B008CDF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Domain", "..\ManimaTech.Mail.Domain\ManimaTech.Notification.Domain.csproj", "{CDB0A47D-1767-43A8-93A4-89A2F1123374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Domain", "..\ManimaTech.Notification.Domain\ManimaTech.Notification.Domain.csproj", "{CDB0A47D-1767-43A8-93A4-89A2F1123374}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Enum", "..\ManimaTech.Mail.Enum\ManimaTech.Notification.Enum.csproj", "{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Enum", "..\ManimaTech.Notification.Enum\ManimaTech.Notification.Enum.csproj", "{AEA649C9-14C3-4E0E-A3EB-DE70964D3C4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Services", "..\ManimaTech.Mail.Services\ManimaTech.Notification.Services.csproj", "{EFB0D292-41F4-481A-8FFD-22FDC874D20E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Services", "..\ManimaTech.Notification.Services\ManimaTech.Notification.Services.csproj", "{EFB0D292-41F4-481A-8FFD-22FDC874D20E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Models", "..\ManimaTech.Mail.Models\ManimaTech.Notification.Models.csproj", "{A0F24526-7625-4B27-B024-2CA48D3D71AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Models", "..\ManimaTech.Notification.Models\ManimaTech.Notification.Models.csproj", "{A0F24526-7625-4B27-B024-2CA48D3D71AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Dtos", "..\ManimaTech.Mail.Dtos\ManimaTech.Notification.Dtos.csproj", "{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManimaTech.Notification.Dtos", "..\ManimaTech.Notification.Dtos\ManimaTech.Notification.Dtos.csproj", "{54C5BA3A-0FC4-4A74-9A2E-B066F384B9A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
