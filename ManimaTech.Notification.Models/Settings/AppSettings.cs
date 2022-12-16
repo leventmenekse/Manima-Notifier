@@ -6,6 +6,7 @@
         public RabbitMQ RabbitMQ { get; set; }
         public SendInBlueSettings SendInBlueSettings { get; set; }
         public SendGridSettings SendGridSettings { get; set; }
+        public MandrillSettings MandrillSettings { get; set; }
     }
 
     public class MongoDb {
@@ -30,6 +31,11 @@
     } 
 
     public class SendGridSettings
+    {
+        public string ApiKey { get; set; }
+    }
+
+    public class MandrillSettings
     {
         public string ApiKey { get; set; }
     }

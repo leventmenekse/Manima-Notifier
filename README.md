@@ -36,7 +36,7 @@
   <p align="center">
     The aim of the project is to gather systems such as mail and sms under one roof and to ensure that they are managed from a single point. 
     <br />
-    It currently supports SendInBlue and SendGrid mail providers. More will be coming soon...
+    It currently supports SendInBlue, SendGrid and Mandrill mail providers. More will be coming soon...
     <br />
     <br />
     <a href="https://github.com/leventmenekse/Manima-Notifier/issues">Report Bug</a>

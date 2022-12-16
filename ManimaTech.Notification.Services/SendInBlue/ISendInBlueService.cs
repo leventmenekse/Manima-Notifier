@@ -1,4 +1,4 @@
-﻿namespace ManimaTech.Notification.Services.SendInBlueService
+﻿namespace ManimaTech.Notification.Services.SendInBlue
 {
     public interface ISendInBlueService : IEmailClient
     {

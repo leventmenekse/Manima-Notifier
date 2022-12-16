@@ -1,10 +1,11 @@
 ﻿using ManimaTech.Notification.Enum;
 using ManimaTech.Notification.Models.Settings;
 using ManimaTech.Notification.Services;
+using ManimaTech.Notification.Services.Mandrill;
 using ManimaTech.Notification.Services.Message;
 using ManimaTech.Notification.Services.RabbitMQ;
 using ManimaTech.Notification.Services.SendGrid;
-using ManimaTech.Notification.Services.SendInBlueService;
+using ManimaTech.Notification.Services.SendInBlue;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -22,7 +23,8 @@ namespace ManimaTech.Notification.Sender
             IRabbitMQService rabbitMqService, 
             AppSettings appSettings,
             ISendInBlueService sendInBlueService,
-            ISendGridService sendGridService)
+            ISendGridService sendGridService,
+            IMandrillService mandrillService)
         {
             _messageService = messageService;
             _rabbitMqService = rabbitMqService;
@@ -31,7 +33,8 @@ namespace ManimaTech.Notification.Sender
             _emailClients = new Dictionary<string, IEmailClient>
             {
                 { EmailClientsType.SEND_IN_BLUE.ToString(), sendInBlueService },
-                { EmailClientsType.SEND_GRID.ToString(), sendGridService }
+                { EmailClientsType.SEND_GRID.ToString(), sendGridService },
+                { EmailClientsType.MANDRILL.ToString(), mandrillService }
             };
         }
 

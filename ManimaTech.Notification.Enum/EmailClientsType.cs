@@ -3,6 +3,7 @@
     public enum EmailClientsType
     {
         SEND_IN_BLUE,
-        SEND_GRID
+        SEND_GRID,
+        MANDRILL
     }
 }

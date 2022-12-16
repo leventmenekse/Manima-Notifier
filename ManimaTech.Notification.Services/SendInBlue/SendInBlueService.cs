@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.Text;
 using System.Web;
 
-namespace ManimaTech.Notification.Services.SendInBlueService
+namespace ManimaTech.Notification.Services.SendInBlue
 {
     public class SendInBlueService : ISendInBlueService
     {

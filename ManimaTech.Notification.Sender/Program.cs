@@ -3,10 +3,11 @@ using ManimaTech.Notification.Domain.Collections;
 using ManimaTech.Notification.Domain.Collections.Interfaces;
 using ManimaTech.Notification.Models.Settings;
 using ManimaTech.Notification.Sender;
+using ManimaTech.Notification.Services.Mandrill;
 using ManimaTech.Notification.Services.Message;
 using ManimaTech.Notification.Services.RabbitMQ;
 using ManimaTech.Notification.Services.SendGrid;
-using ManimaTech.Notification.Services.SendInBlueService;
+using ManimaTech.Notification.Services.SendInBlue;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -35,7 +36,8 @@ var host = Host.CreateDefaultBuilder(args)
         .AddScoped<IRabbitMQService, RabbitMQService>()
         .AddScoped<ISendInBlueService, SendInBlueService>()
         .AddScoped<ISendGridService, SendGridService>()
-        .AddSingleton<Runner, Runner>()
+        .AddScoped<IMandrillService, MandrillService>()
+        .AddSingleton<Runner>()
         .AddHostedService<NotificationHostedService>()
     );
 
